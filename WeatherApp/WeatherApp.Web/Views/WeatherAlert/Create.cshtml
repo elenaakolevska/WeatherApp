@@ -1,0 +1,43 @@
+﻿@model WeatherApp.Domain.DomainModels.WeatherAlert
+@{
+    ViewData["Title"] = "Create Weather Alert";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3>Create New Weather Alert</h3>
+    </div>
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="UserSettings.LocationId" class="form-label">Location</label>
+                <select asp-for="UserSettings.LocationId" class="form-select" asp-items="ViewBag.Locations">
+                    <option value="">-- Select Location --</option>
+                </select>
+                <span asp-validation-for="UserSettings.LocationId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="AlertDate" class="form-label">Alert Date</label>
+                <input asp-for="AlertDate" class="form-control" type="date"
+                       min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="AlertDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-4">
+                <button type="submit" class="btn btn-success">
+                    <i class="fas fa-bell"></i> Create Alert
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="fas fa-times"></i> Cancel
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

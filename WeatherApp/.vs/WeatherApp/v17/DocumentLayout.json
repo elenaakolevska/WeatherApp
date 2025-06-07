@@ -1,0 +1,371 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.service\\implementation\\weatherapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|solutionrelative:weatherapp.service\\implementation\\weatherapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.service\\implementation\\weatherdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|solutionrelative:weatherapp.service\\implementation\\weatherdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\controllers\\weatherdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\controllers\\weatherdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\views\\weatheralert\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\views\\weatheralert\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\controllers\\usersettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\controllers\\usersettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\controllers\\weatheralertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\controllers\\weatheralertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.service\\implementation\\outfitrecommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|solutionrelative:weatherapp.service\\implementation\\outfitrecommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.service\\implementation\\weatheralertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|solutionrelative:weatherapp.service\\implementation\\weatheralertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\views\\weatheralert\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\views\\weatheralert\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\views\\weatheralert\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\views\\weatheralert\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.service\\interface\\iweatheralertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|solutionrelative:weatherapp.service\\interface\\iweatheralertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.web\\views\\weatheralert\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{304CF55F-DEAF-4858-B628-7585C655AACB}|WeatherApp.Web\\WeatherApp.Web.csproj|solutionrelative:weatherapp.web\\views\\weatheralert\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|c:\\users\\elence\\desktop\\is\\weatherapplication\\weatherapp\\weatherapp.service\\interface\\iweatherapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6F39C-10AB-4535-A142-491E0EA57BA0}|WeatherApp.Service\\WeatherApp.Service.csproj|solutionrelative:weatherapp.service\\interface\\iweatherapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\appsettings.json",
+              "RelativeToolTip": "WeatherApp.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-07T20:33:43.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserSettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Controllers\\UserSettingsController.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Controllers\\UserSettingsController.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Controllers\\UserSettingsController.cs",
+              "RelativeToolTip": "WeatherApp.Web\\Controllers\\UserSettingsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T20:08:46.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherDataController.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Controllers\\WeatherDataController.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Controllers\\WeatherDataController.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Controllers\\WeatherDataController.cs",
+              "RelativeToolTip": "WeatherApp.Web\\Controllers\\WeatherDataController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T20:08:23.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\WeatherAlert\\Index.cshtml",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Views\\WeatherAlert\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\WeatherAlert\\Index.cshtml",
+              "RelativeToolTip": "WeatherApp.Web\\Views\\WeatherAlert\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T19:47:30.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Implementation\\WeatherApiService.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Service\\Implementation\\WeatherApiService.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Implementation\\WeatherApiService.cs",
+              "RelativeToolTip": "WeatherApp.Service\\Implementation\\WeatherApiService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T19:33:50.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WeatherApp.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T20:10:02.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherDataService.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Implementation\\WeatherDataService.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Service\\Implementation\\WeatherDataService.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Implementation\\WeatherDataService.cs",
+              "RelativeToolTip": "WeatherApp.Service\\Implementation\\WeatherDataService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T20:05:10.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Program.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Program.cs",
+              "RelativeToolTip": "WeatherApp.Web\\Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T20:12:18.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "WeatherApp.Web\\Controllers\\LocationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T20:08:53.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WeatherApp.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T20:08:59.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WeatherApp.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T20:06:19.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OutfitRecommendationService.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Implementation\\OutfitRecommendationService.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Service\\Implementation\\OutfitRecommendationService.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Implementation\\OutfitRecommendationService.cs",
+              "RelativeToolTip": "WeatherApp.Service\\Implementation\\OutfitRecommendationService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBkAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T20:02:40.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherAlertService.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Implementation\\WeatherAlertService.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Service\\Implementation\\WeatherAlertService.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Implementation\\WeatherAlertService.cs",
+              "RelativeToolTip": "WeatherApp.Service\\Implementation\\WeatherAlertService.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAIwDUAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T19:40:07.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherAlertController.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Controllers\\WeatherAlertController.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Controllers\\WeatherAlertController.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Controllers\\WeatherAlertController.cs",
+              "RelativeToolTip": "WeatherApp.Web\\Controllers\\WeatherAlertController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T19:32:41.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\WeatherAlert\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Views\\WeatherAlert\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\WeatherAlert\\Delete.cshtml",
+              "RelativeToolTip": "WeatherApp.Web\\Views\\WeatherAlert\\Delete.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T19:48:43.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\WeatherAlert\\Details.cshtml",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Views\\WeatherAlert\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\WeatherAlert\\Details.cshtml",
+              "RelativeToolTip": "WeatherApp.Web\\Views\\WeatherAlert\\Details.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T19:35:49.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\WeatherAlert\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WeatherApp.Web\\Views\\WeatherAlert\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Web\\Views\\WeatherAlert\\Edit.cshtml",
+              "RelativeToolTip": "WeatherApp.Web\\Views\\WeatherAlert\\Edit.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwDAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T19:35:55.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IWeatherAlertService.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Interface\\IWeatherAlertService.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Service\\Interface\\IWeatherAlertService.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Interface\\IWeatherAlertService.cs",
+              "RelativeToolTip": "WeatherApp.Service\\Interface\\IWeatherAlertService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T19:43:10.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IWeatherApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Interface\\IWeatherApiService.cs",
+              "RelativeDocumentMoniker": "WeatherApp.Service\\Interface\\IWeatherApiService.cs",
+              "ToolTip": "C:\\Users\\Elence\\Desktop\\IS\\WeatherApplication\\WeatherApp\\WeatherApp.Service\\Interface\\IWeatherApiService.cs",
+              "RelativeToolTip": "WeatherApp.Service\\Interface\\IWeatherApiService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwA0AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T19:33:23.126Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

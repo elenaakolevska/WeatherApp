@@ -1,0 +1,13 @@
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\bin\Release\net8.0\WeatherApp.Domain.deps.json
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\bin\Release\net8.0\WeatherApp.Domain.dll
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\bin\Release\net8.0\WeatherApp.Domain.pdb
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\obj\Release\net8.0\WeatherApp.Domain.csproj.AssemblyReference.cache
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\obj\Release\net8.0\WeatherApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\obj\Release\net8.0\WeatherApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\obj\Release\net8.0\WeatherApp.Domain.AssemblyInfo.cs
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\obj\Release\net8.0\WeatherApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\obj\Release\net8.0\WeatherApp.Domain.sourcelink.json
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\obj\Release\net8.0\WeatherApp.Domain.dll
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\obj\Release\net8.0\refint\WeatherApp.Domain.dll
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\obj\Release\net8.0\WeatherApp.Domain.pdb
+C:\Users\Elence\Desktop\IS\WeatherApplication\WeatherApp\WeatherApp.Domain\obj\Release\net8.0\ref\WeatherApp.Domain.dll

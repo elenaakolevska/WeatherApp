@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using WeatherApp.Domain.IdentityModels
+@inject SignInManager<WeatherAppUser> SignInManager
+@inject UserManager<WeatherAppUser> UserManager
+
+<ul class="navbar-nav ms-auto">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Location" asp-action="Index">Locations</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="UserSettings" asp-action="Index">Settings</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="WeatherAlert" asp-action="Index">Alerts</a>
+        </li>
+
+        <!-- User Info and Logout -->
+        <li class="nav-item">
+            <a class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index">Hello, @User.Identity?.Name!</a>
+        </li>
+        <li class="nav-item">
+            <form class="d-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home")" method="post">
+                <button type="submit" class="btn btn-link nav-link" style="display:inline; padding: 0;">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="WeatherData" asp-action="Index">Forecast</a>
+        </li>
+
+        <!-- Register/Login -->
+        <li class="nav-item">
+            <a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
+</ul>

@@ -1,0 +1,28 @@
+﻿@model WeatherApp.Domain.DomainModels.WeatherData
+
+@{
+    ViewData["Title"] = "Weather Details";
+}
+
+<h2>Weather Details</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">Date</dt>
+        <dd class="col-sm-9">@Model.Date.ToShortDateString()</dd>
+
+        <dt class="col-sm-3">Temperature (°C)</dt>
+        <dd class="col-sm-9">@Model.TemperatureCelsius</dd>
+
+        <dt class="col-sm-3">Humidity (%)</dt>
+        <dd class="col-sm-9">@Model.Humidity</dd>
+
+        <dt class="col-sm-3">Conditions</dt>
+        <dd class="col-sm-9">@Model.Conditions</dd>
+
+        <dt class="col-sm-3">Location</dt>
+        <dd class="col-sm-9">@Model.Location?.City, @Model.Location?.Country</dd>
+    </dl>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

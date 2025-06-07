@@ -1,0 +1,38 @@
+﻿@model IEnumerable<WeatherApp.Domain.DomainModels.UserSettings>
+
+@{
+    var locations = (IEnumerable<WeatherApp.Domain.DomainModels.Location>)ViewBag.Locations;
+}
+
+@if (Model == null || !Model.Any())
+{
+    <p>No user settings found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Location</th>
+                <th>Temperature Unit</th>
+                <th>Receive Alerts</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                var loc = locations.FirstOrDefault(l => l.Id == item.LocationId);
+                <tr>
+                    <td>@(loc != null ? $"{loc.City}, {loc.Country}" : "Unknown")</td>
+                    <td>@item.TemperatureUnit</td>
+                    <td>@item.ReceiveAlerts</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
