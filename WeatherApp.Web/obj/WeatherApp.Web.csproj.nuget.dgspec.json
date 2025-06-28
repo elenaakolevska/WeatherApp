@@ -342,7 +342,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.4, )"
             },
             "Stripe.net": {
               "target": "Package",
