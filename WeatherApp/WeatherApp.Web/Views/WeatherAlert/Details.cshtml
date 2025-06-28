@@ -1,0 +1,27 @@
+﻿@model WeatherApp.Domain.DomainModels.WeatherAlert
+
+@{
+    ViewData["Title"] = "Alert Details";
+}
+
+<h1>Alert Details</h1>
+
+<div>
+    <h4>Weather Alert</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">User Settings Id</dt>
+        <dd class="col-sm-10">@Model.UserSettingsId</dd>
+
+        <dt class="col-sm-2">Alert Type</dt>
+        <dd class="col-sm-10">@Model.AlertType</dd>
+
+        <dt class="col-sm-2">Alert Date</dt>
+        <dd class="col-sm-10">@Model.AlertDate.ToString("g")</dd>
+    </dl>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="text-dark">Edit</a> |
+    <a asp-action="Index" class="text-dark">Back to List</a>
+</p>
