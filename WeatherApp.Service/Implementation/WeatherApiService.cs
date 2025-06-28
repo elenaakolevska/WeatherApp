@@ -68,7 +68,7 @@ namespace WeatherApp.Service.Implementation
 
             for (int i = 0; i < dates.Count; i++)
             {
-                var date = DateTime.Parse(dates[i]).Date;
+                var date = DateTime.SpecifyKind(DateTime.Parse(dates[i]).Date, DateTimeKind.Utc);
 
                 var weatherData = new WeatherData
                 {
