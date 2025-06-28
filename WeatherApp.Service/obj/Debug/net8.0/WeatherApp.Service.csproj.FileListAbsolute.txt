@@ -15,3 +15,4 @@ C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherA
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Service\obj\Debug\net8.0\refint\WeatherApp.Service.dll
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Service\obj\Debug\net8.0\WeatherApp.Service.pdb
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Service\obj\Debug\net8.0\ref\WeatherApp.Service.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Service\obj\Debug\net8.0\WeatherApp.Service.sourcelink.json

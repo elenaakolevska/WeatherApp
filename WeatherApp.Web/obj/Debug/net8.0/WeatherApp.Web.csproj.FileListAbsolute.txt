@@ -572,3 +572,6 @@ C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherA
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Web\obj\Debug\net8.0\WeatherApp.Web.pdb
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Web\obj\Debug\net8.0\WeatherApp.Web.genruntimeconfig.cache
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Web\obj\Debug\net8.0\ref\WeatherApp.Web.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Web\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Web\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Web\obj\Debug\net8.0\WeatherApp.Web.sourcelink.json

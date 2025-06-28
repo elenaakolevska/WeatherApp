@@ -10,3 +10,4 @@ C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherA
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\refint\WeatherApp.Domain.dll
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\WeatherApp.Domain.pdb
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\ref\WeatherApp.Domain.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\WeatherApp.Domain.sourcelink.json

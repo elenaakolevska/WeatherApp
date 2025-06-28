@@ -3070,9 +3070,9 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.5",
           "Microsoft.EntityFrameworkCore": "8.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.5",
           "Microsoft.Extensions.Configuration": "8.0.5",
           "Microsoft.Extensions.Configuration.Json": "8.0.5",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "WeatherApp.Domain": "1.0.0"
         },
         "compile": {
