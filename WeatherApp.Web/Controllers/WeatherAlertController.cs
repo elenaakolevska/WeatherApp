@@ -202,12 +202,14 @@ namespace WeatherApp.Web.Controllers
                 var existingAlert = _weatherAlertService.GetByIdWithUserSettings(id);
                 if (existingAlert == null) return NotFound();
 
-                // Check if UserSettings exists
                 if (existingAlert.UserSettings == null)
                 {
                     ModelState.AddModelError("", "User settings not found for this alert");
                     return View(alert);
                 }
+
+                if (alert.AlertDate.Kind != DateTimeKind.Utc)
+                    alert.AlertDate = DateTime.SpecifyKind(alert.AlertDate, DateTimeKind.Utc);
 
                 if (existingAlert.AlertDate.Date != alert.AlertDate.Date)
                 {
@@ -227,10 +229,6 @@ namespace WeatherApp.Web.Controllers
                     }
                 }
 
-                // Ensure AlertDate is UTC
-                if (alert.AlertDate.Kind != DateTimeKind.Utc)
-                    alert.AlertDate = alert.AlertDate.ToUniversalTime();
-
                 existingAlert.AlertDate = alert.AlertDate;
                 _weatherAlertService.Update(existingAlert);
 
@@ -242,7 +240,6 @@ namespace WeatherApp.Web.Controllers
                 return View(alert);
             }
         }
-
         // GET: WeatherAlert/Delete/5
         public IActionResult Delete(int id)
         {
