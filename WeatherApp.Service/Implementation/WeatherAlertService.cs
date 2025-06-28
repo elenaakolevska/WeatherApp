@@ -55,6 +55,7 @@ namespace WeatherApp.Service.Implementation
                 alert.AlertType = "✅ Normal Conditions - No severe weather expected";
                 return _repository.Insert(alert);
             }
+            alert.AlertDate = DateTime.SpecifyKind(alert.AlertDate, DateTimeKind.Utc);
 
             try
             {

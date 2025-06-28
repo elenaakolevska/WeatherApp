@@ -182,7 +182,7 @@ namespace WeatherApp.Service.Implementation
                         {
                             var weatherData = new WeatherData
                             {
-                                Date = date.Date,
+                                Date = DateTime.SpecifyKind(date.Date, DateTimeKind.Utc),
                                 TemperatureCelsius = (tempMax[0] + tempMin[0]) / 2.0,
                                 Humidity = precipitation.Count > 0 ? precipitation[0] : 0,
                                 Conditions = precipitation.Count > 0 && precipitation[0] > 0 ? "Rain" : "Clear",
@@ -221,7 +221,7 @@ namespace WeatherApp.Service.Implementation
 
                         var weatherData = new WeatherData
                         {
-                            Date = date.Date,
+                            Date = DateTime.SpecifyKind(date.Date, DateTimeKind.Utc),
                             TemperatureCelsius = data["main"]?["temp"]?.Value<double>() ?? 0,
                             Humidity = data["main"]?["humidity"]?.Value<double>() ?? 0,
                             Conditions = data["weather"]?[0]?["main"]?.Value<string>() ?? "Unknown",
@@ -243,7 +243,7 @@ namespace WeatherApp.Service.Implementation
 
             return new WeatherData
             {
-                Date = date.Date,
+                Date = DateTime.SpecifyKind(date.Date, DateTimeKind.Utc),
                 TemperatureCelsius = 15, 
                 Humidity = 50, 
                 Conditions = "Clear",
