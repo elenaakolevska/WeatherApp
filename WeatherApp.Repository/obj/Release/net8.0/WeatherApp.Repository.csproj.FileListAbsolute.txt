@@ -15,3 +15,4 @@ C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherA
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherApp.Repository.pdb
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherApp.Repository.genruntimeconfig.cache
 C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\ref\WeatherApp.Repository.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherApp.Repository.sourcelink.json
