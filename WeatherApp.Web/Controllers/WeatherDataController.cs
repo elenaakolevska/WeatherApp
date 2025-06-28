@@ -6,7 +6,6 @@ using WeatherApp.Service.Interface;
 namespace WeatherApp.Web.Controllers
 {
     [AllowAnonymous]
-
     public class WeatherDataController : Controller
     {
         private readonly IWeatherDataService _weatherDataService;
@@ -52,9 +51,6 @@ namespace WeatherApp.Web.Controllers
             return View(model);
         }
 
-
-
-
         public IActionResult Details(int id)
         {
             var data = _weatherDataService.GetById(id);
@@ -76,8 +72,8 @@ namespace WeatherApp.Web.Controllers
 
             var model = new WeatherViewModel
             {
-                Current = currentData,          
-                Forecast = allForecastData,     
+                Current = currentData,
+                Forecast = allForecastData,
                 Locations = _locationService.GetAll(),
                 SelectedLocationId = locationId
             };
@@ -99,16 +95,14 @@ namespace WeatherApp.Web.Controllers
 
             var model = new WeatherViewModel
             {
-                Current = allCurrentData,      
-                Forecast = forecastData,       
+                Current = allCurrentData,
+                Forecast = forecastData,
                 Locations = _locationService.GetAll(),
                 SelectedLocationId = locationId
             };
 
             return View("Index", model);
         }
-
-
 
         public IActionResult Delete(int id)
         {

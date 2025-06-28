@@ -6,7 +6,6 @@ using WeatherApp.Service.Implementation;
 using WeatherApp.Service.Interface;
 
 [Authorize]
-
 public class UserSettingsController : Controller
 {
     private readonly IUserSettingsService _service;
@@ -15,8 +14,12 @@ public class UserSettingsController : Controller
     private readonly IWeatherApiService _weatherApiService;
     private readonly IOutfitRecommendationService _outfitRecommendationService;
 
-
-    public UserSettingsController(IUserSettingsService service, ILocationService locationService, IWeatherAlertService weatherAlertService, IWeatherApiService weatherApiService, IOutfitRecommendationService outfitRecommendationService)
+    public UserSettingsController(
+        IUserSettingsService service,
+        ILocationService locationService,
+        IWeatherAlertService weatherAlertService,
+        IWeatherApiService weatherApiService,
+        IOutfitRecommendationService outfitRecommendationService)
     {
         _service = service;
         _locationService = locationService;
@@ -24,7 +27,6 @@ public class UserSettingsController : Controller
         _weatherApiService = weatherApiService;
         _outfitRecommendationService = outfitRecommendationService;
     }
-
 
     // GET: UserSettings
     public IActionResult Index()
@@ -69,7 +71,6 @@ public class UserSettingsController : Controller
     // POST: UserSettings/Edit/5
     [HttpPost]
     [ValidateAntiForgeryToken]
-    
     public async Task<IActionResult> Edit(int id, UserSettings userSettings)
     {
         if (id != userSettings.Id)
@@ -89,7 +90,7 @@ public class UserSettingsController : Controller
                 _weatherAlertService.CleanInvalidAlerts();
 
                 var existingAlerts = _weatherAlertService.GetAll()
-                    .Where(a => a.UserSettingsId == userSettings.Id && a.AlertDate.Date == DateTime.Today)
+                    .Where(a => a.UserSettingsId == userSettings.Id && a.AlertDate.Date == DateTime.UtcNow.Date)
                     .ToList();
 
                 if (!existingAlerts.Any())
@@ -97,7 +98,7 @@ public class UserSettingsController : Controller
                     var alert = new WeatherAlert
                     {
                         UserSettingsId = userSettings.Id,
-                        AlertDate = DateTime.Now,
+                        AlertDate = DateTime.UtcNow,
                         AlertType = _weatherAlertService.GenerateWeatherAlert(currentWeather),
                         RecommendationText = _outfitRecommendationService.GenerateOutfitRecommendation(currentWeather)
                     };
@@ -121,11 +122,6 @@ public class UserSettingsController : Controller
         ViewBag.Locations = _locationService.GetAll();
         return View(userSettings);
     }
-
-
-
-
-
 
     // GET: UserSettings/Details/5
     public IActionResult Details(int id)

@@ -12,7 +12,6 @@ using WeatherApp.Service.Interface;
 namespace WeatherApp.Web.Controllers
 {
     [Authorize]
-
     public class WeatherAlertController : Controller
     {
         private readonly IWeatherAlertService _weatherAlertService;
@@ -21,8 +20,12 @@ namespace WeatherApp.Web.Controllers
         private readonly IOutfitRecommendationService _outfitRecommendationService;
         private readonly IRepository<UserSettings> _userSettingsRepository;
 
-
-        public WeatherAlertController(IWeatherAlertService weatherAlertService, ILocationService locationService, IOutfitRecommendationService outfitRecommendationService, IRepository<UserSettings> userSettingsRepository, IWeatherApiService weatherApiService)
+        public WeatherAlertController(
+            IWeatherAlertService weatherAlertService,
+            ILocationService locationService,
+            IOutfitRecommendationService outfitRecommendationService,
+            IRepository<UserSettings> userSettingsRepository,
+            IWeatherApiService weatherApiService)
         {
             _weatherAlertService = weatherAlertService;
             _locationService = locationService;
@@ -34,9 +37,9 @@ namespace WeatherApp.Web.Controllers
         public async Task CheckAndCreateAlertsForAllUsers()
         {
             var allUserSettings = _userSettingsRepository.GetAll(
-                   selector: x => x,
-                   include: x => x.Include(u => u.Location)
-               );
+                selector: x => x,
+                include: x => x.Include(u => u.Location)
+            );
             foreach (var userSettings in allUserSettings)
             {
                 var weatherData = await _weatherApiService.GetCurrentWeatherAsync(userSettings.LocationId);
@@ -46,7 +49,7 @@ namespace WeatherApp.Web.Controllers
                     var alert = new WeatherAlert
                     {
                         UserSettings = userSettings,
-                        AlertDate = DateTime.Now,
+                        AlertDate = DateTime.UtcNow,
                         AlertType = _weatherAlertService.GenerateWeatherAlert(weatherData),
                         RecommendationText = _outfitRecommendationService.GenerateOutfitRecommendation(weatherData)
                     };
@@ -85,7 +88,7 @@ namespace WeatherApp.Web.Controllers
             {
                 var existingAlerts = _weatherAlertService.GetAll()
                     .Where(a => a.UserSettingsId == userSettings.Id &&
-                               a.AlertDate.Date == DateTime.Today)
+                                a.AlertDate.Date == DateTime.UtcNow.Date)
                     .ToList();
 
                 if (!existingAlerts.Any())
@@ -93,7 +96,7 @@ namespace WeatherApp.Web.Controllers
                     var alert = new WeatherAlert
                     {
                         UserSettingsId = userSettings.Id,
-                        AlertDate = DateTime.Now,
+                        AlertDate = DateTime.UtcNow,
                         AlertType = _weatherAlertService.GenerateWeatherAlert(weatherData),
                         RecommendationText = _outfitRecommendationService.GenerateOutfitRecommendation(weatherData)
                     };
@@ -110,19 +113,18 @@ namespace WeatherApp.Web.Controllers
                 .OrderByDescending(a => a.AlertDate)
                 .ToList();
 
-
-
             return View(userAlerts);
         }
-
-
-
 
         [HttpPost]
         public IActionResult CreateWeatherAlert([FromBody] WeatherAlert alert)
         {
             if (alert == null)
                 return BadRequest("Alert data is null.");
+
+            // Ensure AlertDate is UTC
+            if (alert.AlertDate.Kind != DateTimeKind.Utc)
+                alert.AlertDate = alert.AlertDate.ToUniversalTime();
 
             try
             {
@@ -167,6 +169,10 @@ namespace WeatherApp.Web.Controllers
         {
             if (ModelState.IsValid)
             {
+                // Ensure AlertDate is UTC
+                if (alert.AlertDate.Kind != DateTimeKind.Utc)
+                    alert.AlertDate = alert.AlertDate.ToUniversalTime();
+
                 _weatherAlertService.Insert(alert);
                 ViewBag.Locations = new SelectList(_locationService.GetAll(), "Id", "City");
 
@@ -174,7 +180,6 @@ namespace WeatherApp.Web.Controllers
             }
             return View(alert);
         }
-      
 
         // GET: WeatherAlert/Edit/5
         public IActionResult Edit(int id)
@@ -222,6 +227,10 @@ namespace WeatherApp.Web.Controllers
                     }
                 }
 
+                // Ensure AlertDate is UTC
+                if (alert.AlertDate.Kind != DateTimeKind.Utc)
+                    alert.AlertDate = alert.AlertDate.ToUniversalTime();
+
                 existingAlert.AlertDate = alert.AlertDate;
                 _weatherAlertService.Update(existingAlert);
 
@@ -233,7 +242,6 @@ namespace WeatherApp.Web.Controllers
                 return View(alert);
             }
         }
-
 
         // GET: WeatherAlert/Delete/5
         public IActionResult Delete(int id)
@@ -262,7 +270,6 @@ namespace WeatherApp.Web.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
         public IActionResult CleanAllAlerts()
         {
             var all = _weatherAlertService.GetAll().ToList();
@@ -272,6 +279,5 @@ namespace WeatherApp.Web.Controllers
             TempData["Message"] = "All alerts deleted.";
             return RedirectToAction(nameof(Index));
         }
-
     }
 }

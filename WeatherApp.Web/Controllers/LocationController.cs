@@ -6,7 +6,6 @@ using WeatherApp.Service.Interface;
 namespace WeatherApp.Web.Controllers
 {
     [Authorize]
-
     public class LocationController : Controller
     {
         private readonly ILocationService _locationService;
@@ -18,11 +17,8 @@ namespace WeatherApp.Web.Controllers
 
         public IActionResult Index()
         {
-            
             var locations = _locationService.GetAll();
-
             return View(locations);
-            
         }
 
         public IActionResult Details(int id)
