@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2025-06-18T12:27:56.0572682Z||;True|2025-06-18T14:08:53.1235567+02:00||;False|2025-06-18T14:01:07.7255246+02:00||;False|2025-06-18T13:37:26.7576981+02:00||;False|2025-06-18T13:24:11.6315335+02:00||;False|2025-06-18T13:01:50.9029751+02:00||;False|2025-06-17T09:44:20.9937268+02:00||;False|2025-06-17T09:40:50.3484159+02:00||;False|2025-06-17T09:29:32.4925084+02:00||;False|2025-06-17T09:26:26.2607483+02:00||;False|2025-06-17T09:14:12.5218689+02:00||;False|2025-06-16T15:37:43.3490517+02:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:weatherapp1webdbserver.database.windows.net,1433%3bInitial Catalog=WeatherApp.Web_db%3bUser ID=CloudSAa7a548f9%3bPassword=Elena#24%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

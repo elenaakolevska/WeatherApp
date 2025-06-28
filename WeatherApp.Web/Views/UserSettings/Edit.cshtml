@@ -1,0 +1,38 @@
+﻿@model WeatherApp.Domain.DomainModels.UserSettings
+
+@{
+    var locations = (IEnumerable<WeatherApp.Domain.DomainModels.Location>)ViewBag.Locations;
+}
+
+
+@if (ViewBag.ModelErrors != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.ModelErrors
+    </div>
+}
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="LocationId"></label>
+        <select asp-for="LocationId" class="form-control" asp-items="@(new SelectList(locations, "Id", "City"))">
+            <option value="">-- Select Location --</option>
+        </select>
+        <span asp-validation-for="LocationId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TemperatureUnit"></label>
+        <input asp-for="TemperatureUnit" class="form-control" readonly />
+        <span asp-validation-for="TemperatureUnit" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReceiveAlerts"></label>
+        <input asp-for="ReceiveAlerts" type="checkbox" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

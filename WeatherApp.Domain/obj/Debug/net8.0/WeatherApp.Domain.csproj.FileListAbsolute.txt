@@ -1,0 +1,12 @@
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\bin\Debug\net8.0\WeatherApp.Domain.deps.json
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\bin\Debug\net8.0\WeatherApp.Domain.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\bin\Debug\net8.0\WeatherApp.Domain.pdb
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\WeatherApp.Domain.csproj.AssemblyReference.cache
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\WeatherApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\WeatherApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\WeatherApp.Domain.AssemblyInfo.cs
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\WeatherApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\WeatherApp.Domain.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\refint\WeatherApp.Domain.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\WeatherApp.Domain.pdb
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Domain\obj\Debug\net8.0\ref\WeatherApp.Domain.dll

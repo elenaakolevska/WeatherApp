@@ -1,0 +1,20 @@
+﻿@model WeatherApp.Domain.DomainModels.UserSettings
+
+@{
+    ViewData["Title"] = "User Settings Details";
+}
+
+<h1>User Settings Details</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">Temperature Unit</dt>
+        <dd class="col-sm-9">@Model.TemperatureUnit</dd>
+
+        <dt class="col-sm-3">Receive Alerts</dt>
+        <dd class="col-sm-9">@(Model.ReceiveAlerts ? "Yes" : "No")</dd>
+    </dl>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

@@ -1,0 +1,33 @@
+﻿@model WeatherApp.Domain.DomainModels.WeatherData
+
+@{
+    ViewData["Title"] = "Delete Weather Entry";
+}
+
+<h2>Delete Weather Data</h2>
+
+<h4>Are you sure you want to delete this entry?</h4>
+<hr />
+<dl class="row">
+    <dt class="col-sm-3">Date</dt>
+    <dd class="col-sm-9">@Model.Date.ToShortDateString()</dd>
+
+    <dt class="col-sm-3">Temperature (°C)</dt>
+    <dd class="col-sm-9">@Model.TemperatureCelsius</dd>
+
+    <dt class="col-sm-3">Humidity (%)</dt>
+    <dd class="col-sm-9">@Model.Humidity</dd>
+
+    <dt class="col-sm-3">Location</dt>
+    <dd class="col-sm-9">
+        @(Model.Location != null
+            ? $"{Model.Location.City}, {Model.Location.Country}"
+            : "")
+    </dd>
+</dl>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "WeatherApp Home";
+}
+
+<div class="text-center">
+    <h1>Welcome to WeatherApp</h1>
+
+    <div class="mt-5">
+        <a asp-controller="WeatherData" asp-action="Index" class="btn btn-primary btn-lg">
+            View Weather Data
+        </a>
+
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <p class="mt-3">
+                To access locations and alerts, please
+                <a asp-area="Identity" asp-page="/Account/Login" class="text-dark">log in</a>
+            </p>
+        }
+    </div>
+</div>

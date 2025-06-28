@@ -1,0 +1,17 @@
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\bin\Release\net8.0\WeatherApp.Repository.deps.json
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\bin\Release\net8.0\WeatherApp.Repository.runtimeconfig.json
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\bin\Release\net8.0\WeatherApp.Repository.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\bin\Release\net8.0\WeatherApp.Repository.pdb
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\bin\Release\net8.0\WeatherApp.Domain.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\bin\Release\net8.0\WeatherApp.Domain.pdb
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherApp.Repository.csproj.AssemblyReference.cache
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherApp.Repository.AssemblyInfoInputs.cache
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherApp.Repository.AssemblyInfo.cs
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherApp.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherA.21FCA44D.Up2Date
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherApp.Repository.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\refint\WeatherApp.Repository.dll
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherApp.Repository.pdb
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\WeatherApp.Repository.genruntimeconfig.cache
+C:\Users\Elena\Downloads\WeatherApp-master\WeatherApp-master\WeatherApp\WeatherApp.Repository\obj\Release\net8.0\ref\WeatherApp.Repository.dll
